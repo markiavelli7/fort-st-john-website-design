@@ -3,7 +3,7 @@ import { jsx } from "theme-ui";
 import NextImage from "@/components/NextImage";
 import FourMile from "../../../public/svgs/FourMile";
 
-import { BodyParagraph } from "@/components/Layout/Text";
+import { BodyParagraph } from "../layout/Text";
 import { PrimaryLink } from "@/components/Interactive";
 
 export default function RecentWorkFSFeatured({

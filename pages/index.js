@@ -4,7 +4,7 @@ import { jsx } from "theme-ui";
 import Layout from "@/components/layout";
 import NextImage from "@/components/NextImage";
 import { SectionWithPadding } from "@/components/layout/Container";
-import { BodyParagraph, SectionTitle } from "@/components/layout/Text";
+import { BodyParagraph, SectionTitle } from "../src/components/layout/Text";
 import * as Space from "@/components/layout/Space";
 import RecentWork from "@/components/recentWork/RecentWork";
 import SEO from "@/components/seo";
