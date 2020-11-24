@@ -2,13 +2,12 @@
 import { jsx } from "theme-ui";
 import { MdPhoneIphone } from "react-icons/md";
 import { HiOutlineMail } from "react-icons/hi";
-import Link from "next/link";
 import NextImage from "@/components/NextImage";
 
 import MobileLogo from "../../../../public/svgs/JDLogoMobileWhite";
 import FSLogo from "../../../../public/svgs/JDLogoFSWhite";
 
-import * as Space from "@/components/Layout/Space";
+import * as Space from "../Space";
 import { SecondaryLink } from "@/components/Interactive";
 
 export default function Footer() {
