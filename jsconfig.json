@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/state": ["src/state/index.js"],
+      "@/hooks": ["src/hooks/index.js"],
+      "@/components/*": ["src/components/*"],
+    }
+  }
+}
