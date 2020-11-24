@@ -9,7 +9,7 @@ import MobileLogo from "../../../../public/svgs/JDLogoMobileWhite";
 import FSLogo from "../../../../public/svgs/JDLogoFSWhite";
 
 import * as Space from "@/components/Layout/Space";
-import { SecondaryButton } from "@/components/Interactive";
+import { SecondaryLink } from "@/components/Interactive";
 
 export default function Footer() {
   return (
@@ -30,12 +30,12 @@ export default function Footer() {
             online.
           </div>
           <div sx={styles.buttonCont}>
-            <SecondaryButton
+            <SecondaryLink
               style={{ border: "3px solid #5572DA" }}
-              href="/contact-us"
+              href="https://jensendesignshop.com/contact-us"
             >
               Request a Quote
-            </SecondaryButton>
+            </SecondaryLink>
           </div>
         </div>
         <div sx={styles.logoCont}>
@@ -85,9 +85,14 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} JDS Website and App Development
           </h5>
 
-          <Link href="/privacy-policy">
-            <a sx={styles.privacy}>Privacy Policy</a>
-          </Link>
+          <a
+            target="_blank"
+            rel="noreferrer noopener"
+            href="https://jensendesignshop.com/privacy-policy"
+            sx={styles.privacy}
+          >
+            Privacy Policy
+          </a>
         </div>
       </div>
     </div>

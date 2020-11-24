@@ -40,7 +40,7 @@ export function SecondaryLink({
   };
 
   return (
-    <a href={href} sx={styles.button}>
+    <a target="_blank" rel="noreferrer noopener" href={href} sx={styles.button}>
       {children}
     </a>
   );

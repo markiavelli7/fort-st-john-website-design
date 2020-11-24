@@ -57,46 +57,51 @@ export default function FullscreenHeader({ collapseHeader }) {
           }
         }
       >
-        <Link href="/">
-          <button
-            sx={styles.fsLinkHome}
-            css={router.pathname === "/" && { color: "#073DA6" }}
-          >
-            <AiFillHome />
-          </button>
-        </Link>
-        <Link href="/websites">
-          <button
-            sx={styles.fsLink}
-            css={router.pathname === "/websites" && { color: "#073DA6" }}
-          >
-            Websites
-          </button>
-        </Link>
-        <Link href="/logo-design">
-          <button
-            sx={styles.fsLink}
-            css={router.pathname === "/logo-design" && { color: "#073DA6" }}
-          >
-            Logos
-          </button>
-        </Link>
-        <Link href="/search-seo">
-          <button
-            sx={styles.fsLink}
-            css={router.pathname === "/search-seo" && { color: "#073DA6" }}
-          >
-            Search/SEO
-          </button>
-        </Link>
-        <Link href="/contact-us">
-          <button
-            sx={styles.fsLink}
-            css={router.pathname === "/contact-us" && { color: "#073DA6" }}
-          >
-            Contact
-          </button>
-        </Link>
+        <a
+          target="_blank"
+          rel="noreferrer noopener"
+          href="https://jensendesignshop.com"
+          sx={styles.fsLinkHome}
+          css={router.pathname === "/" && { color: "#073DA6" }}
+        >
+          <AiFillHome />
+        </a>
+        <a
+          target="_blank"
+          rel="noreferrer noopener"
+          href="https://jensendesignshop.com/websites"
+          sx={styles.fsLink}
+          css={router.pathname === "/websites" && { color: "#073DA6" }}
+        >
+          Websites
+        </a>
+        <a
+          target="_blank"
+          rel="noreferrer noopener"
+          href="https://jensendesignshop.com/logo-design"
+          sx={styles.fsLink}
+          css={router.pathname === "/logo-design" && { color: "#073DA6" }}
+        >
+          Logos
+        </a>
+        <a
+          target="_blank"
+          rel="noreferrer noopener"
+          href="https://jensendesignshop.com/search-seo"
+          sx={styles.fsLink}
+          css={router.pathname === "/search-seo" && { color: "#073DA6" }}
+        >
+          Search/SEO
+        </a>
+        <a
+          target="_blank"
+          rel="noreferrer noopener"
+          href="https://jensendesignshop.com/contact-us"
+          sx={styles.fsLink}
+          css={router.pathname === "/contact-us" && { color: "#073DA6" }}
+        >
+          Contact
+        </a>
       </div>
       <div
         sx={styles.headerLinksCollapse}
@@ -109,46 +114,51 @@ export default function FullscreenHeader({ collapseHeader }) {
           }
         }
       >
-        <Link href="/">
-          <button
-            sx={styles.fsLink}
-            css={router.pathname === "/" && { color: "#073DA6" }}
-          >
-            Home
-          </button>
-        </Link>
-        <Link href="/websites">
-          <button
-            sx={styles.fsLink}
-            css={router.pathname === "/websites" && { color: "#073DA6" }}
-          >
-            Websites
-          </button>
-        </Link>
-        <Link href="/logo-design">
-          <button
-            sx={styles.fsLink}
-            css={router.pathname === "/logo-design" && { color: "#073DA6" }}
-          >
-            Logos
-          </button>
-        </Link>
-        <Link href="/search-seo">
-          <button
-            sx={styles.fsLink}
-            css={router.pathname === "/search-seo" && { color: "#073DA6" }}
-          >
-            Search/SEO
-          </button>
-        </Link>
-        <Link href="/contact-us">
-          <button
-            sx={styles.fsLink}
-            css={router.pathname === "/contact-us" && { color: "#073DA6" }}
-          >
-            Contact
-          </button>
-        </Link>
+        <a
+          target="_blank"
+          rel="noreferrer noopener"
+          href="https://jensendesignshop.com"
+          sx={styles.fsLink}
+          css={router.pathname === "/" && { color: "#073DA6" }}
+        >
+          Home
+        </a>
+        <a
+          target="_blank"
+          rel="noreferrer noopener"
+          href="https://jensendesignshop.com/websites"
+          sx={styles.fsLink}
+          css={router.pathname === "/websites" && { color: "#073DA6" }}
+        >
+          Websites
+        </a>
+        <a
+          target="_blank"
+          rel="noreferrer noopener"
+          href="https://jensendesignshop.com/logo-design"
+          sx={styles.fsLink}
+          css={router.pathname === "/logo-design" && { color: "#073DA6" }}
+        >
+          Logos
+        </a>
+        <a
+          target="_blank"
+          rel="noreferrer noopener"
+          href="https://jensendesignshop.com/search-seo"
+          sx={styles.fsLink}
+          css={router.pathname === "/search-seo" && { color: "#073DA6" }}
+        >
+          Search/SEO
+        </a>
+        <a
+          target="_blank"
+          rel="noreferrer noopener"
+          href="https://jensendesignshop.com/contact-us"
+          sx={styles.fsLink}
+          css={router.pathname === "/contact-us" && { color: "#073DA6" }}
+        >
+          Contact
+        </a>
       </div>
     </div>
   );
@@ -218,6 +228,8 @@ var styles = {
   },
 
   fsLinkHome: {
+    display: "flex",
+    alignItems: "center",
     fontSize: [null, null, null, null, "1.3rem", "1.5rem"],
     py: "2",
     pt: [null, null, null, null, "0.7rem"],
@@ -235,6 +247,8 @@ var styles = {
   },
 
   fsLink: {
+    display: "flex",
+    alignItems: "center",
     textTransform: "uppercase",
     fontSize: [null, null, null, null, "1rem", "1.2rem", "1.3rem"],
     bg: "unset",

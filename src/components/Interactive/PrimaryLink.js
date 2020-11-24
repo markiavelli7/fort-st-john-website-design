@@ -42,7 +42,13 @@ export function PrimaryLink({
   };
 
   return (
-    <a onClick={onClick} href={href} sx={styles.button}>
+    <a
+      target="_blank"
+      rel="noreferrer noopener"
+      onClick={onClick}
+      href={href}
+      sx={styles.button}
+    >
       {children}
     </a>
   );
