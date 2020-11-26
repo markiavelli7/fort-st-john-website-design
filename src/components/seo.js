@@ -11,7 +11,7 @@ export default function SEO({
   ogImageAlt = "Custom Website Development in Fort St John, British Columbia.",
   twitterImage = "https://res.cloudinary.com/jds/image/upload/v1606062949/jds-site/twitter/twitter-website-development-fort-st-john_nv2dqt.jpg",
 }) {
-  const siteTitle = "Jensen Design Shop";
+  const siteTitle = "Fort St John Web Design";
 
   useEffect(() => {
     (function (h, o, t, j, a, r) {

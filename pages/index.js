@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <Layout>
       <SEO
-        title="Web Design Fort St John"
+        title="Website Development FSJ"
         description="Mobile friendly business websites that generate new leads and grow your business online. Complete solutions including logo design, web development and SEO services."
         ogUrl="https://www.fortstjohnwebsitedesign.com"
         ogImage="https://res.cloudinary.com/jds/image/upload/v1606232206/fort-st-john-website-design-site/website-development-fort-st-john_yxmzrg.jpg"
