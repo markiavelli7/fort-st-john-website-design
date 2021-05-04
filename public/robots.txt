@@ -1,4 +1,4 @@
-Sitemap: https://fortstjohnwebsitedesign.com/sitemap.xml
+Sitemap: https://www.fortstjohnwebsitedesign.com/sitemap.xml
 
 User-agent: *
 Allow: /*
